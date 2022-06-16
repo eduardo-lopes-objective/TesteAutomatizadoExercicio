@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Xunit;
 using Exercice.Exercice1;
 
-namespace Exercice.Test
+namespace Exercice.Test.Exercice1
 {
     public class Multiple3Or5And7ServiceTest
     {

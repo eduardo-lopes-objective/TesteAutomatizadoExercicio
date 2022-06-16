@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Xunit;
 using Exercice.Exercice1;
 
-namespace Exercice.Test
+namespace Exercice.Test.Exercice1
 {
     internal class MultipleOf3Exposed : MultipleOf3
     {

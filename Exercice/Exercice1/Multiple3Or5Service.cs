@@ -7,15 +7,15 @@ namespace Exercice.Exercice1
 {
     public class Multiple3Or5Service
     {
+        private MultipleOfHandler MultipleOfHandler = new();
+
         public int Run(int amountRecords)
         {
             var response = 0;
 
-            MultipleOfHandler MultipleOfHandler = new();
-
             for (var index = 1; index < amountRecords; index++)
             {
-                if (MultipleOfHandler.IsMultiple(index))
+                if (IsMultiple(index))
                 {
                     response += index;
                 }
@@ -23,5 +23,7 @@ namespace Exercice.Exercice1
 
             return response;
         }
+
+        public bool IsMultiple(int value) => MultipleOfHandler.IsMultiple(value);
     }
 }

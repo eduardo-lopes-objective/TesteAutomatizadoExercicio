@@ -14,7 +14,7 @@ namespace Exercice.Test.Exercice2
         public void OneIsHappy()
         {
             DetermineIsHappyNumber determineIsHappyNumber = new();
-            
+
             var result = determineIsHappyNumber.Check(1);
 
             Assert.True(result, "1 is happy");
@@ -24,7 +24,7 @@ namespace Exercice.Test.Exercice2
         public void FourIsNotHappy()
         {
             DetermineIsHappyNumber determineIsHappyNumber = new();
-            
+
             var result = determineIsHappyNumber.Check(4);
 
             Assert.False(result, "4 is not happy");
@@ -35,7 +35,7 @@ namespace Exercice.Test.Exercice2
         public void SevenIsHappy()
         {
             DetermineIsHappyNumber determineIsHappyNumber = new();
-            
+
             var result = determineIsHappyNumber.Check(7);
 
             Assert.True(result, "7 is happy");
@@ -52,7 +52,7 @@ namespace Exercice.Test.Exercice2
         public void IsHappyNumber(int number, bool expected)
         {
             DetermineIsHappyNumber determineIsHappyNumber = new();
-            
+
             var result = determineIsHappyNumber.Check(number);
 
             Assert.Equal(expected, result);

@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Exercice.Exercice3.Business;
 using Xunit;
 
@@ -9,7 +5,7 @@ namespace Exercice.Test.Exercice3
 {
     public class DetermineNumberIsPrimeTest
     {
-        private readonly DetermineNumberIsPrime service = null;
+        private readonly DetermineNumberIsPrime service;
 
         public DetermineNumberIsPrimeTest()
         {
